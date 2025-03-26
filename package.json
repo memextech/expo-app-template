@@ -1,5 +1,5 @@
 {
-  "name": "coffee-v60",
+  "name": "expo-app-template",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
