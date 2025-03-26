@@ -1,10 +1,24 @@
-# Web & Mobile Expo App
+# Web & Mobile Expo App Documentation
 
 ## Project Overview
-TODO
+This is a template for building cross-platform mobile and web applications using Expo and React Native. The project is set up with Expo Router for file-based navigation, TypeScript for type safety, and includes a tab-based navigation structure. It provides a foundation for developing applications that can run on iOS, Android, and web platforms from a single codebase.
 
 ## Project Structure
-TODO
+- `/app`: Contains the application screens and navigation structure using Expo Router
+  - `/(tabs)`: Tab-based navigation screens (index.tsx and two.tsx)
+  - `_layout.tsx`: Root layout configuration
+  - `+html.tsx`: HTML template for web platform
+  - `+not-found.tsx`: 404 page
+  - `modal.tsx`: Modal screen example
+- `/components`: Reusable UI components
+  - `EditScreenInfo.tsx`: Example component with screen information
+  - `ExternalLink.tsx`: Component for external links
+  - `StyledText.tsx`: Text styling component
+  - `Themed.tsx`: Theme-aware components
+  - Various hooks for client-only values and color schemes
+- `/assets`: Static assets like images and fonts
+- `/constants`: Application constants including colors and dimensions
+- `/data`: Data storage and management
 
 ## Memex Universe
 The `.memex` directory is used by the Memex universe, a template system for project management. The `config.yaml` file stores metadata about the project, while `rules.md` (this file) provides instructions and documentation for working with this project. These files are used by the Memex agent to guide development and iteration on the project.
@@ -18,7 +32,10 @@ The `.memex` directory is used by the Memex universe, a template system for proj
 
 ## Setup Instructions
 
-1. Clone this repository
+1. This is a template created using this command. DO NOT CREATE A NEW EXPO PROJECT.
+```bash
+npx create-expo-app@latest your-app-name --template tabs
+```
 2. Install Expo CLI if not available
 ```bash
 npm install -g expo-cli
@@ -32,28 +49,6 @@ npx expo login
 npm install
 ```
 5. Run the development server:
-```bash
-npm run start
-```
-
-## Generic information how to setup Expo and create and configure new projects
-
-#### Install Expo CLI
-```bash
-npm install -g expo-cli
-```
-
-#### Login to Expo
-```bash
-npx expo login
-```
-
-#### Create a New Expo Project with file-based routing with Expo Router and TypeScript enabled
-```bash
-npx create-expo-app@latest your-app-name --template tabs
-```
-
-#### Start the application
 ```bash
 npm run start
 ```
