@@ -1,0 +1,43 @@
+card_image: ''
+created_at: 2025-03-26 13:03:29.421000
+creator_id: unknown
+deployment:
+  last_deployed: null
+  type: null
+  url: ''
+description: Web & Mobile Expo App Template
+domain: ''
+features:
+- ''
+getting_started_screen: false
+getting_started_screen_index: 0
+git:
+  branch: main
+  remote: origin
+  url: https://github.com/memextech/expo-app-template
+hero_image: ''
+icon: ''
+is_published: true
+pills:
+- icon: ''
+  label: ''
+  prompt: ''
+project_id: t7Zg3KgFtjTPjILIhjjF
+published_at: 2025-03-26 13:03:44.706000
+requirements:
+- description: ''
+  type: ''
+slug: ''
+storage:
+  compression_enabled: null
+  gcs_path: null
+  last_sync: null
+  max_file_size_mb: null
+  size_bytes: null
+title: Expo App Template
+tools:
+- name: ''
+  role: ''
+  type: ''
+  version: ''
+updated_at: 2025-03-26 13:03:44.706000
